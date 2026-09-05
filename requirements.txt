@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+PySocks
+cloudscraper
+pytz
+psutil
+browser-cookie3
+curl_cffi
+httpx
+aiohttp
+boto3
+python-dotenv

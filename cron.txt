@@ -1,0 +1,5 @@
+0 3 * * * reboot
+#@reboot cd /var/www/html/amz/amazon;nohup python3 smartphones_spl2.py > /dev/null 2>&1 &
+@reboot cd /root/flipkart;nohup python3 pages_3.py > /dev/null 2>&1 &
+@reboot cd /root/flipkart1;nohup python3 pages_4.py > /dev/null 2>&1 &
+@reboot cd /root/flipkart2;nohup python3 spl1.py > /dev/null 2>&1 &

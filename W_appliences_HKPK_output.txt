@@ -1,0 +1,35 @@
+[00:53:43] W_appliences_HKPK/kappliance_inductioncooktopU1k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_dishwasherU4k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_electrictandooeU500.txt 1   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_wm_ifbboschlgU7k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_wm10kg_u7k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_wm_topbrandU5k.txt 2   |  2 Results
+[00:53:43] W_appliences_HKPK/kappliance_wm_fullyautU7k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_refrigrator_cap2h3hU10k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_refrigrator_capacity4h5hU25k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/cycle_elctriccycleU10000.txt 1   |  1 Results
+[00:53:43] W_appliences_HKPK/kappliance_wm_allB_3k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_refrigrator_U5k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/earphone_BT_earbudU500.txt 3   |  3 Results
+[00:53:43] W_appliences_HKPK/kappliance_microwaveU3k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_dishwasheU10k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_wm_frontloadU10k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/speaker_speakertopbranU1k_.txt 10  | 10 Results
+[00:53:43] W_appliences_HKPK/kappliance_oven_5k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_ChimneyU1500.txt 4   |  4 Results
+[00:53:43] W_appliences_HKPK/earphone_BT_topbrandU1k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/cycle_adultgencycleU1000.txt 2   |  2 Results
+[00:53:43] W_appliences_HKPK/speaker_midwattU2k_.txt 2   |  2 Results
+[00:53:43] W_appliences_HKPK/cycle_electricd50pU15K.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/kappliance_refrigrator_300lplusU15k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/speaker_200wU7k_.txt 10  | 10 Results
+[00:53:43] W_appliences_HKPK/kappliance_dishwasherifboschU25k.txt 0   |  0 Results
+[00:53:43] W_appliences_HKPK/cycle_gearcycle U1500.txt 1   |  1 Results
+[00:53:43] W_appliences_HKPK/cycle_adultcycle50p.txt 2   |  2 Results
+[00:53:43] W_appliences_HKPK/kappliance_mixerjuierU1k.txt 3   |  3 Results
+[00:53:43] W_appliences_HKPK/kappliance_refrigrator_topbrandU10k.txt 10  | 10 Results
+[00:53:43] W_appliences_HKPK/kappliance_robotic_vcleanerU5k.txt 47  | 20 Results
+[00:53:44] W_appliences_HKPK/kappliance_vcleanerU1k.txt 182 | 20 Results
+[00:53:44] W_appliences_HKPK/cycle_geardiscountU2500.txt 1   |  1 Results
+[00:53:44] W_appliences_HKPK/earphone_BT_earbudU200.txt 0   |  0 Results
+Telegram = off
