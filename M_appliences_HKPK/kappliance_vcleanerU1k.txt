@@ -1,0 +1,13 @@
+00:49:03 => Karcher Plastic Hose Coupling Entry with Label (Multicolour, 4 x 5 inch) Hand-held Vacuum Cleaner => ok => 450 => 348 => LSTVCLG2A6ZZBYZUHKBNEH1YU
+00:49:03 => AGARO Regal & Regal Plus Filter and Multipurpose Brush, Dry Vacuuming, Bagless Dry Vacuum Cleaner => ok => 695 => 351 => LSTVCLGWEZXW4J2ZQTENU5VCU
+00:49:03 => Karcher Fleece filter bag Wet & Dry Vacuum Cleaner (WiFi Connectivity) => ok => 1942 => 996 => LSTVCLHFYTYTZEEDF2STZBCHH
+00:49:03 => LAORKOU 4 in 1 MultiFunction Car Vacuum Cleaner Wet and Dry Duster Auto Care Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum, Anti-Bacterial Cleaning, Reusable Dust Bag => ok => 4999 => 1103 => LSTVCLH2PBSFQX2H5W5XGVTO4
+00:49:03 => LAORKOU 4 in 1 MultiFunction Car Vacuum Cleaner Wet and Dry Duster Auto Care Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum, Anti-Bacterial Cleaning, Reusable Dust Bag => ok => 4999 => 1259 => LSTVCLH2PBVJ6JEY3FEJ87OVS
+00:49:03 => HASTHIP Y1 Pro Robotic Floor Cleaner => ok => 2099 => 1378 => LSTVCLHEC6AMYZYAGJZTQUVTA
+00:49:03 => Karcher Plastic Suction Brush Kit (Black, Standard Size) Hand-held Vacuum Cleaner => ok => 2050 => 1467 => LSTVCLG2A6ZBWJGTG6WU1PP0K
+00:49:03 => AGARO Regal Hand-held Vacuum Cleaner Dry Vacuuming, 6.5 kPa Suction Power, Lightweight => ok => 2999 => 1599 => LSTVCLFHG5XQ8W3VJKGZ9F8V3
+00:49:03 => Inalsa OZOY Handheld Vacuum Cleaner Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum => ok => 2995 => 1699 => LSTVCLGPPHCZNDH26GZSWWZBG
+00:49:03 => KENT Duster Vacuum Cleaner|Cyclone5Technology|BaglessDesign|Ideal for Curtain|Sofa Hand-held Vacuum Cleaner => ok => 2950 => 1849 => LSTVCLH363JUZQ65UZSUJ20YC
+00:53:24 => AGARO Crown Mini Desk Vacuum Cleaner, Mini Table dust Sweeper Hand-held Vacuum Cleaner => ok => 1799 => 1027 => LSTVCLHYQ2GQS8HHJ4R7L1YXO
+00:53:24 => InstaCuppa Portable Desktop Vacuum Cleaner, Battery Operated Sweeper for Cleaning Desktop Cordless Vacuum Cleaner => ok => 1499 => 1140 => LSTVCLH2244HTXTFVKKQNMMBG
+00:53:24 => AGARO REGAL Lite Hand Held Vacuum Cleaner, 700W,For Home Use, Dry Vacuuming Hand-held Vacuum Cleaner => ok => 2699 => 1499 => LSTVCLHY4YXR8PHZAGQXQZVIE

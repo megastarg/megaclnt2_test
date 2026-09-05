@@ -1,0 +1,26 @@
+00:49:17 => Karcher Plastic Hose Coupling Entry with Label (Multicolour, 4 x 5 inch) Hand-held Vacuum Cleaner => IN_STOCK => 450 => 348 => LSTVCLG2A6ZZBYZUHKBNEH1YU
+00:49:17 => AGARO Regal & Regal Plus Filter and Multipurpose Brush, Dry Vacuuming, Bagless Dry Vacuum Cleaner => IN_STOCK => 695 => 351 => LSTVCLGWEZXW4J2ZQTENU5VCU
+00:49:17 => Karcher Fleece filter bag Wet & Dry Vacuum Cleaner (WiFi Connectivity) => IN_STOCK => 1942 => 996 => LSTVCLHFYTYTZEEDF2STZBCHH
+00:49:17 => LAORKOU 4 in 1 MultiFunction Car Vacuum Cleaner Wet and Dry Duster Auto Care Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum, Anti-Bacterial Cleaning, Reusable Dust Bag => IN_STOCK => 4999 => 1103 => LSTVCLH2PBSFQX2H5W5XGVTO4
+00:49:17 => LAORKOU 4 in 1 MultiFunction Car Vacuum Cleaner Wet and Dry Duster Auto Care Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum, Anti-Bacterial Cleaning, Reusable Dust Bag => IN_STOCK => 4999 => 1259 => LSTVCLH2PBVJ6JEY3FEJ87OVS
+00:49:17 => HASTHIP Y1 Pro Robotic Floor Cleaner => IN_STOCK => 2099 => 1378 => LSTVCLHEC6AMYZYAGJZTQUVTA
+00:49:17 => Karcher Plastic Suction Brush Kit (Black, Standard Size) Hand-held Vacuum Cleaner => IN_STOCK => 2050 => 1467 => LSTVCLG2A6ZBWJGTG6WU1PP0K
+00:49:17 => AGARO Regal Hand-held Vacuum Cleaner Dry Vacuuming, 6.5 kPa Suction Power, Lightweight => IN_STOCK => 2999 => 1599 => LSTVCLFHG5XQ8W3VJKGZ9F8V3
+00:49:17 => Inalsa OZOY Handheld Vacuum Cleaner Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum => IN_STOCK => 2995 => 1699 => LSTVCLGPPHCZNDH26GZSWWZBG
+00:49:17 => KENT Duster Vacuum Cleaner|Cyclone5Technology|BaglessDesign|Ideal for Curtain|Sofa Hand-held Vacuum Cleaner => IN_STOCK => 2950 => 1849 => LSTVCLH363JUZQ65UZSUJ20YC
+00:49:17 => AGARO REGAL Lite Plus Hand Held Vacuum Cleaner, Handheld & Stick, 700W, Dry Vacuuming Hand-held Vacuum Cleaner => IN_STOCK => 3699 => 1899 => LSTVCLHY4ZFWQUHKPUWS62A9C
+00:49:17 => AGARO 33423 Upright Hand-held Vacuum Cleaner with Reusable Dust Bag => IN_STOCK => 2999 => 1972 => LSTVCLGFAHEFGZ3GBVYJKNHNW
+00:49:17 => Inalsa Clean Pro 800W Hand-held Vacuum Cleaner with Reusable Dust Bag => IN_STOCK => 3595 => 1990 => LSTVCLEXE6HHJTPUMMWSVHUYQ
+00:49:17 => Midea MT2INRE Hand-held Vacuum Cleaner => IN_STOCK => 3690 => 1999 => LSTVCLHDF4FNHZTCYTHK2XMLV
+00:49:17 => Flipkart SmartBuy Mistral Dry Vacuum Cleaner => IN_STOCK => 4999 => 1999 => LSTVCLFT7A3RV4KZGG3HOVDGJ
+00:49:17 => STARQ Tornado Wireless | 15000 Pa Suction | BLDC Motor | 2 Suction Modes | Led Light | Hand-held Vacuum Cleaner => IN_STOCK => 9999 => 2199 => LSTVCLH6J9UJUM84ZZZDKRIMD
+00:49:17 => Roboson VC201 Hand-held Vacuum Cleaner => IN_STOCK => 4399 => 2244 => LSTVCLGYHTFHDZZVSZNUKJZTG
+00:49:17 => KENT Storm Vacuum Cleaner 600W, Cyclone5 Technology and HEPA Filter, Bagless Design Hand-held Vacuum Cleaner => IN_STOCK => 5950 => 2248 => LSTVCLGTG43GDGSPJEJWZ4K9R
+00:49:17 => EUREKA FORBES Atom Powerful Suction Used as Inflator for toy, Washable Filter 2-in-1 Blower & Hand-held Vacuum Cleaner with Reusable Dust Bag => IN_STOCK => 4500 => 2250 => LSTVCLHKAHGACHYBJWY4GFFCO
+00:49:17 => Inalsa OZOY PLUS Handheld Vacuum Cleaner Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum => IN_STOCK => 3995 => 2297 => LSTVCLGPPHCYGHJZHJFAYMWHA
+00:50:35 => AGARO Royal Mini Hand Held Vacuum Cleaner, Portable Car Vacuum Hand-held Vacuum Cleaner => IN_STOCK => 5499 => 1999 => LSTVCLHY5YR6MKGFFEFQLGHFW
+00:51:30 => AGARO Crown Mini Desk Vacuum Cleaner, Mini Table dust Sweeper Hand-held Vacuum Cleaner => IN_STOCK => 1799 => 1027 => LSTVCLHYQ2GQS8HHJ4R7L1YXO
+00:51:30 => InstaCuppa Portable Desktop Vacuum Cleaner, Battery Operated Sweeper for Cleaning Desktop Cordless Vacuum Cleaner => IN_STOCK => 1499 => 1140 => LSTVCLH2244HTXTFVKKQNMMBG
+00:51:30 => AGARO REGAL Lite Hand Held Vacuum Cleaner, 700W,For Home Use, Dry Vacuuming Hand-held Vacuum Cleaner => IN_STOCK => 2699 => 1499 => LSTVCLHY4YXR8PHZAGQXQZVIE
+00:51:30 => Tomahawk 120W Hand held Vacuum cleaner Cordless Vacuum Cleaner => IN_STOCK => 3370 => 2078 => LSTVCLH4W45YYXNYEKSK0BMFV
+00:51:30 => Tomahawk TEV-220-Cordless Car Vaccum Cleaner for Car & Wet Cleaning with Suction Power Cordless Vacuum Cleaner => IN_STOCK => 3240 => 2247 => LSTVCLH5FSEDZZAC236LIJDXK

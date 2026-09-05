@@ -1,0 +1,10 @@
+00:49:03 => Godrej 30 L Qube Personal Cooling Solution 30 L Direct Cool Single Door Refrigerator => ok => 8524 => 7170 => LSTRFRFFMH6SYA4D3B3F0VEWF
+00:49:03 => Godrej 30 L Direct Cool Portable Cooler 2 Star with Base Drawer => ok => 8990 => 7639 => LSTRFRGVJH3BGHDGBDZKEV2YD
+00:49:03 => Blue Star 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 11993 => 7773 => LSTRFRGW4JSZNMBWYBTYPJYND
+00:49:03 => Blue Star 45 L Direct Cool Single Door 2 Star Convertible Refrigerator => ok => 11990 => 8990 => LSTRFRGW95PVVQZGYHTCL5DRF
+00:49:03 => BPL 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 12490 => 8990 => LSTRFRH74U4SZA4CR3XXOR5OM
+00:49:03 => Midea 45 L Direct Cool Single Door 1 Star Refrigerator => ok => 10990 => 8999 => LSTRFRFZDMNXJ28RFBXOJQWGQ
+00:49:03 => BPL 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 15490 => 9370 => LSTRFRGHUGYB7TTGYSY5YSG3Y
+00:49:03 => BPL 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 12490 => 9790 => LSTRFRH74U4W5FH6BJYYWHX5W
+00:49:03 => Lloyd by Havells 92 L Direct Cool Single Door 1 Star Refrigerator  with Dedicated Freezer Section Big Bottle StorageFull Vegetable Box => ok => 14290 => 9990 => LSTRFRHAH6F6ZMTVURFXIZMYH
+00:49:03 => LG 43 L Direct Cool Single Door 1 Star Refrigerator => ok => 11999 => 9990 => LSTRFRGZV4YBGYH8K7FHYNAYJ
