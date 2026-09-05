@@ -1,0 +1,17 @@
+17:32:29 => DRUMSTONE LearnTab 7-Inch Kids Learning Tablet | WiFi Android Educational Tablet 4 GB RAM 64 GB ROM 75 inch with Wi-Fi+5G Tablet (Multicolor) => ok => 10999 => 6274 => LSTTABHGXW4X4ZNFHHPTKSIDY
+17:32:29 => Samsung Galaxy Tab A9 4 GB RAM 64 GB ROM 22.1 inch with 4G Gaming MediaTek Helio G99 Tablet (Graphite) => Currently unavailable => 19999 => 12050 => LSTTABGTF4GK2ZMM4C8LAH0QZ
+17:32:29 => Samsung Galaxy Tab A9 4 GB RAM 64 GB ROM 22.1 inch with Wi-Fi Only MediaTek MT8781 (G99) Tablet (Graphite) => Currently unavailable => 14999 => 12250 => LSTTABGTF4G7EFGQZHAASEVJ8
+17:32:29 => Samsung Galaxy Tab A9 4 GB RAM 64 GB ROM 22.1 inch with Wi-Fi Only MediaTek MT8781 (G99) Tablet (Navy) => Currently unavailable => 14999 => 12550 => LSTTABGTF4GJYTEPXGV1DOHWJ
+17:32:29 => Samsung Galaxy Tab A9 4 GB RAM 64 GB ROM 22.1 inch with 4G MediaTek MT8781 (G99) Tablet (Silver) => Currently unavailable => 19999 => 12990 => LSTTABGTF4GFJHEVFDSHDIC5N
+17:32:29 => Samsung Galaxy Tab A9 4 GB RAM 64 GB ROM 22.1 inch with Wi-Fi Only MediaTek MT8781 (G99) Tablet (Silver) => Currently unavailable => 14999 => 12999 => LSTTABGTF4G3DZWAFXYMQNF5V
+17:32:29 => Samsung Galaxy Tab A9 4 GB RAM 64 GB ROM 22.1 inch with Wi-Fi+4G MediaTek MT8781 (G99) Tablet (Navy) => Currently unavailable => 19999 => 15999 => LSTTABGTF4GVFAZCHK3LTP75U
+17:32:29 => Honor Pad 8 4 GB RAM 128 GB ROM 12 inch with Wi-Fi Only Qualcomm Snapdragon 680, Octa Core Tablet (Blue Hour) => Currently unavailable => 29999 => 19299 => LSTTABGHQPYJSRQGYMX0NFEJN
+17:32:29 => Honor Pad 8 6 GB RAM 128 GB ROM 12 inch with Wi-Fi Only Qualcomm Snapdragon 680, Octa Core Tablet (Blue Hour) => Currently unavailable => 31999 => 21199 => LSTTABGHQPYWJSDKQFGFMFAV9
+17:32:29 => REDMI  Pad Pro 6 GB RAM 128 GB ROM 12.1 inch with Wi-Fi Only Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 24999 => 21999 => LSTTABH32JHNMHX6WZMXGFIEG
+17:32:30 => REDMI  Pad Pro 6 GB RAM 128 GB ROM 12.1 inch with Wi-Fi Only Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Mist Blue) => ok => 24999 => 21999 => LSTTABH32JHRGSGSSPCKYOUK7
+17:32:30 => Lenovo Tab P12 8 GB RAM 128 GB ROM 12.7 Inch with Wi-Fi Only MediaTek Dimensity 7050 Tablet (Storm Grey) => Currently unavailable => 40000 => 22048 => LSTTABGTG6HMNQHEPRXTFMV9I
+17:32:30 => POCO Pad 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Cobalt Blue) => ok => 30999 => 23999 => LSTTABH3QBC2AGQXZ2GYJ40AJ
+17:32:30 => POCO Pad 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Pistachio Green) => ok => 30999 => 23999 => LSTTABH3QBCSJ3Y6XHYOPRXKY
+17:32:30 => Lenovo Tab P12 8 GB RAM 256 GB ROM 12.7 Inch with Wi-Fi Only Gaming MediaTek Dimensity 7050 Tablet (Storm Grey) => ok => 42000 => 24148 => LSTTABGSGGGSCBWGGZYSJLYZH
+17:32:30 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 26999 => 24999 => LSTTABH32JHGNVFKTDAEBHAQF
+17:32:30 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Snapdragon 7s Gen 2 Tablet (Quick Silver) => ok => 26999 => 24999 => LSTTABH32JHT2TXRZFRASDWBU

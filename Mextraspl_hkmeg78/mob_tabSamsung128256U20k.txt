@@ -1,0 +1,11 @@
+17:32:30 => Samsung Galaxy Tab A11 8 GB RAM 128 GB ROM 8.7 inch with Wi-Fi+4G Gaming MediaTek Helio G99 Tablet (Gray) => Currently unavailable => 24999 => 15821 => LSTTABHFTNZAKTJVNYGFVVIDM
+17:32:30 => Samsung Galaxy Tab A11 8 GB RAM 128 GB ROM 8.7 inch with Wi-Fi+4G Gaming MediaTek Helio G99 Tablet (Silver) => Currently unavailable => 24999 => 16499 => LSTTABHFTNZHZDXPQSG5IS49Z
+17:32:30 => Samsung Galaxy Tab A11+ 6 GB RAM 128 GB ROM 11 inch with Wi-Fi Only Gaming Mediatek MT8755 Tablet (Gray) => Currently unavailable => 27999 => 16949 => LSTTABHJKZWSKPSY7VYVHVFD8
+17:32:30 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi+5G Qualcomm Snapdragon 695 Tablet (Graphite) => Currently unavailable => 32989 => 17500 => LSTTABGTF4G3RPUDTVQHFXK4Q
+17:32:30 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi+5G Qualcomm Snapdragon 695 Tablet (Navy) => Currently unavailable => 32999 => 17599 => LSTTABGTF4GRCRW7FAZJP4MXH
+17:32:30 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi Only Qualcomm SM6375 Tablet (Graphite) => Currently unavailable => 32999 => 17999 => LSTTABH23YYTUPAGZAC4PVNB3
+17:32:30 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi+5G Qualcomm Snapdragon 695 Tablet (Silver) => Currently unavailable => 32999 => 18490 => LSTTABGTF4GNVTZTZPMMHTMFR
+17:32:30 => Samsung Galaxy A06 5G (Light Green, 128 GB) => Currently unavailable => 19999 => 18673 => LSTMOBHMW8ZHKY8KNA3OZOP4P
+17:32:30 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi Only QUALCOMM SM6375 Tablet (Navy) => Currently unavailable => 27999 => 18699 => LSTTABGTF4GXWMNP3GFM0HI3G
+17:32:30 => Samsung Galaxy Tab A11 8 GB RAM 128 GB ROM 8.7 inch with Wi-Fi Only Gaming MediaTek Helio G99 Tablet (Gray) => Currently unavailable => 21999 => 18750 => LSTTABHFTNZRKPSVEGDMVK3YQ
+17:32:30 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi Only QUALCOMM SM6375 Tablet (Silver) => Currently unavailable => 27999 => 19999 => LSTTABGTF4GHEAHJHY218QV2A

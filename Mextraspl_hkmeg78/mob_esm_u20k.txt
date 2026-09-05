@@ -1,0 +1,10 @@
+17:32:29 => itel P55 5G (Mint green, 128 GB) => Currently unavailable => 13499 => 13000 => LSTMOBGV5D9U84YECEPF3RGPP
+17:32:29 => Alcatel V3 Ultra 5G (Ocean Grey, 128 GB) => Currently unavailable => 27999 => 14999 => LSTMOBHBH2GGCYGZ7BYA9ZAXA
+17:32:29 => Alcatel V3 Ultra 5G (Hyper Blue, 128 GB) => Currently unavailable => 27999 => 14999 => LSTMOBHBH2GBTMFGMDGUXL2RC
+17:32:29 => Alcatel V3 Ultra 5G (Ocean Grey, 128 GB) => Currently unavailable => 29999 => 15999 => LSTMOBHBH2GGYQGMNG2YCRS4C
+17:32:29 => Alcatel V3 Ultra 5G (Hyper Blue, 128 GB) => Currently unavailable => 29999 => 15999 => LSTMOBHBH2GJ7VZ69HRCDRV2I
+17:32:29 => Samsung Galaxy A55 5G (Awesome Iceblue, 128 GB) => Currently unavailable => 42499 => 17999 => LSTMOBGYT2HX4A4QAWWIBXA1S
+17:32:29 => Samsung Galaxy A55 5G (Awesome Navy, 128 GB) => Currently unavailable => 42999 => 17999 => LSTMOBGYT2H4PGHBRHJZ3LCX5
+17:32:29 => Alcatel V3 Ultra 5G (Champagne Gold, 128 GB) => Currently unavailable => 29999 => 17999 => LSTMOBHBH2GZHD9SKJAYDVC18
+17:32:29 => Alcatel V3 Ultra 5G (Champagne Gold, 128 GB) => ok => 27999 => 19999 => LSTMOBHBH2G2SG6PSFZ0HWTKN
+17:32:29 => Samsung Galaxy A55 5G (Awesome Navy, 256 GB) => Currently unavailable => 45999 => 19999 => LSTMOBGYT2HAUQNPZYVLEA4BJ

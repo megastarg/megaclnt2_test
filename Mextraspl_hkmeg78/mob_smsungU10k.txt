@@ -1,0 +1,19 @@
+17:32:29 => Samsung Galaxy M06 5G (Sage Green, 64 GB) => Currently unavailable => 12499 => 8320 => LSTMOBHCTXH9NNZEUVHUNIO6T
+17:32:29 => Samsung Galaxy A06 5G (Light Gray, 64 GB) => Currently unavailable => 11999 => 8597 => LSTMOBH9YKVEHBDSPCFAZDUND
+17:32:29 => Samsung M06 5G (Blazing Black, 128 GB) => Currently unavailable => 11999 => 8801 => LSTMOBH9UYF4GZXGWW6WSKI9K
+17:32:29 => Samsung Galaxy M06 5G (Blazing Black, 64 GB) => Currently unavailable => 9990 => 8899 => LSTMOBHDEYCZHZJWCNHBP6BMK
+17:32:29 => Samsung Galaxy A06 5G (Black, 64 GB) => Currently unavailable => 11999 => 8967 => LSTMOBH9GQKTSEJGNCA7YPNGN
+17:32:29 => Samsung Galaxy A06 5G (Light Green, 64 GB) => Currently unavailable => 11999 => 8987 => LSTMOBH9GQKNQBVH9U7JOWDX4
+17:32:29 => Samsung Galaxy M14 5G (Smoky Teal, 128 GB) => Currently unavailable => 17990 => 9190 => LSTMOBGZWSZRKVHMZHWWBW5T3
+17:32:29 => Samsung Galaxy A06 5G (Light Green, 64 GB) => Currently unavailable => 13999 => 9333 => LSTMOBH9YKV4VUSAN9KPPKWU8
+17:32:29 => Samsung M06 5G (Sage Green, 128 GB) => Currently unavailable => 11338 => 9379 => LSTMOBH9UYFYVNKR3HRGO6GSN
+17:32:29 => Samsung Galaxy A06 5G (Light Gray, 64 GB) => Currently unavailable => 13999 => 9499 => LSTMOBH9GQKZXJU6SNDGWERYW
+17:32:29 => Samsung a14 5g (Steller Black, 64 GB) => Currently unavailable => 12999 => 9900 => LSTMOBH92ADFPBFJSC7UW4ETX
+17:32:29 => Samsung Galaxy A06 5G (Black, 128 GB) => Currently unavailable => 15499 => 9920 => LSTMOBH9YKUMUZJHACEHVN6V1
+17:32:29 => Samsung Galaxy A06 5G (Light Green, 128 GB) => Currently unavailable => 15499 => 9990 => LSTMOBH9YKUTGWPGPHDARBQKU
+17:32:29 => Samsung GALAXY M13 5G (Stardust Brown, 64 GB) => Currently unavailable => 16999 => 9990 => LSTMOBGHDXFDVNHFVVF1GNVW5
+17:32:29 => Samsung Galaxy A06 5G (Light Gray, 128 GB) => Currently unavailable => 15499 => 9999 => LSTMOBH9YKVTKYHQGHGHYJ95R
+17:32:29 => Samsung Galaxy A14 5G (Black, 64 GB) => Currently unavailable => 16499 => 9999 => LSTMOBGHT8UA2H4AAPMHXDDYB
+17:32:29 => Samsung Galaxy A15 5G (Blue Black, 128 GB) => Currently unavailable => 21499 => 9999 => LSTMOBGWD85ZUA8BMDZUAHRK8
+17:32:29 => Samsung Galaxy M32 (Light Blue, 64 GB) => Currently unavailable => 16999 => 9999 => LSTMOBGHDXFME6MJUVUXPTMMP
+17:32:29 => Samsung Galaxy A14 5G (Light Green, 64 GB) => Currently unavailable => 16499 => 9999 => LSTMOBH92ADTUKHFHZHKG4Z5Z

@@ -1,0 +1,4 @@
+17:32:29 => Apple iPad (7th Gen) 32 GB ROM 10.2 inch with Wi-Fi Only A10 Fusion Chip (Space Grey) => Currently unavailable => 29900 => 19950 => LSTTABFHF3ATXZ42TW856HDNC
+17:32:29 => Apple iPad (6th Gen) 32 GB ROM 9.7 inch with Wi-Fi Only A10 Fusion Chip (Gold) => Currently unavailable => 28000 => 24899 => LSTTABF455ESJGJ3K7JJR4GII
+17:32:29 => Apple iPad (6th Gen) 32 GB ROM 9.7 inch with Wi-Fi Only A10 Fusion Chip (Space Grey) => Currently unavailable => 28000 => 24899 => LSTTABF455EVUJEWUMZJM4GIY
+17:32:29 => Apple iPad (6th Gen) 32 GB ROM 9.7 inch with Wi-Fi Only A10 Fusion Chip (Silver) => Currently unavailable => 28000 => 24899 => LSTTABF455EZRU2GTXZWOI2FK

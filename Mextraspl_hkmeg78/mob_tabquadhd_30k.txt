@@ -1,0 +1,19 @@
+17:32:29 => REDMI  Pad Pro 6 GB RAM 128 GB ROM 12.1 inch with Wi-Fi Only Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 24999 => 21999 => LSTTABH32JHNMHX6WZMXGFIEG
+17:32:29 => POCO Pad 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Cobalt Blue) => ok => 30999 => 23999 => LSTTABH3QBC2AGQXZ2GYJ40AJ
+17:32:29 => POCO Pad 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Pistachio Green) => ok => 30999 => 23999 => LSTTABH3QBCSJ3Y6XHYOPRXKY
+17:32:29 => Apple iPad (6th Gen) 32 GB ROM 9.7 inch with Wi-Fi Only A10 Fusion Chip (Gold) => Currently unavailable => 28000 => 24899 => LSTTABF455ESJGJ3K7JJR4GII
+17:32:29 => Apple iPad (6th Gen) 32 GB ROM 9.7 inch with Wi-Fi Only A10 Fusion Chip (Space Grey) => Currently unavailable => 28000 => 24899 => LSTTABF455EVUJEWUMZJM4GIY
+17:32:29 => Apple iPad (6th Gen) 32 GB ROM 9.7 inch with Wi-Fi Only A10 Fusion Chip (Silver) => Currently unavailable => 28000 => 24899 => LSTTABF455EZRU2GTXZWOI2FK
+17:32:29 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 26999 => 24999 => LSTTABH32JHGNVFKTDAEBHAQF
+17:32:29 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Snapdragon 7s Gen 2 Tablet (Quick Silver) => ok => 26999 => 24999 => LSTTABH32JHT2TXRZFRASDWBU
+17:32:29 => POCO Pad 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Pistachio Green) => ok => 32999 => 25999 => LSTTABH3QBCGCZHZAZV18PT9N
+17:32:29 => POCO POCO Pad 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Cobalt Blue) => ok => 32999 => 25999 => LSTTABH3QBCKDGREXERMV3OKP
+17:32:29 => REDMI Pad 2 Pro 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 4 Tablet (Graphite Grey) => Currently unavailable => 34999 => 27604 => LSTTABHJFBZR3XFSVNKNBHNCN
+17:32:29 => REDMI Pad 2 Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 4 Tablet (Graphite Grey) => Currently unavailable => 32999 => 28999 => LSTTABHJFBZAGAZSSSYADJMDN
+17:32:29 => REDMI Pad 2 Pro 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 4 Tablet (Quick Silver) => Currently unavailable => 39999 => 29343 => LSTTABHJFBZH5HAMGQFFWSHOA
+17:32:29 => Lenovo Phab 2 Pro 4 GB RAM 64 GB ROM 6.4 inch with Wi-Fi+4G Qualcomm (MSM8976) Snapdragon 652 Processor Tablet (Champagne Gold) => Currently unavailable => 30000 => 30000 => LSTMOBEQCPNY9GUAWTTTQKZDZ
+17:32:32 => REDMI  Pad Pro 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 28999 => 26999 => LSTTABH32JHWDQWMRMCPQBMHK
+17:32:32 => REDMI  Pad Pro 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 28999 => 26999 => LSTTABH32JHWDQWMRMCPQBMHK
+17:32:32 => REDMI  Pad Pro 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 28999 => 26999 => LSTTABH32JHWDQWMRMCPQBMHK
+17:32:32 => REDMI  Pad Pro 5G 8 GB RAM 256 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 28999 => 26999 => LSTTABH32JHWDQWMRMCPQBMHK
+18:09:38 => REDMI Pad 2 Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 4 Tablet (Quick Silver) => Currently unavailable => 32999 => 27466 => LSTTABHJFBZ493S8QZKAYSWXW

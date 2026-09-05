@@ -49,7 +49,7 @@ def block(foldername):
             f.close()
 
         try:
-            #url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/getUpdates?offset=-1"
+            #url = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_BLOCK')}/getUpdates?offset=-1"
             telegramurl = "http://rdptv.lalkothi.tech/fkwebhook/fkcommands.php"
 
             header = {}
@@ -109,22 +109,10 @@ def block(foldername):
                     if text == "@mausa_bot":
                         return
                     else:
-                        url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(foldername + " <b>Blocked keyword " + text + "</b>")
+                        import notifier
+                        notifier.send_message("TELEGRAM_BOT_BLOCK", "-1001590697850", foldername + " <b>Blocked keyword " + text + "</b>", disable_notification=True)
 
                     f.write(',' + text.lower())
-                    uclient=Request(url)
-
-                    uclient.add_header("User-Agent",
-                                       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36")
-                    uclient.add_header("Accept", "*/*")
-                    uclient.add_header("Accept-Language",
-                                       "en-GB,en-US;q=0.9,en;q=0.8")
-                    uclient.add_header("Accept-Encoding", "gzip, deflate")
-                    uclient.add_header("Connection", "keep-alive")
-                    try:
-                        response=urlopen(uclient, timeout=120)
-                    except Exception as e:
-                        pass
 
 
                 f.close()
@@ -143,22 +131,12 @@ def block(foldername):
                     if text == "@mausa_bot":
                         return
                     else:
-                        url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
-                            foldername + " <b>removed keyword " + text.lower() + "</b>")
+                        import notifier
+                        notifier.send_message("TELEGRAM_BOT_BLOCK", "-1001590697850", foldername + " <b>removed keyword " + text.lower() + "</b>", disable_notification=True)
 
                     fa = open(filename, "w+")
                     fa.write(get_contents)
                     fa.close()
-                    uclient = Request(url)
-
-                    uclient.add_header("User-Agent",
-                                       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36")
-                    uclient.add_header("Accept", "*/*")
-                    uclient.add_header("Accept-Language",
-                                       "en-GB,en-US;q=0.9,en;q=0.8")
-                    uclient.add_header("Accept-Encoding", "gzip, deflate")
-                    uclient.add_header("Connection", "keep-alive")
-                    response = urlopen(uclient, timeout=120)
 
             elif text.find("/stopcheckout") != -1:
                 text = text.replace("/stopcheckout", "")
@@ -185,19 +163,8 @@ def block(foldername):
                 f.write(text)
                 f.close()
 
-                url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
-                        "<b>" + foldername + " AutoCheckout stop</b> = "+text+" !! \n\n To stop keywords - true,yes,1,nponly,plusonly,codonly")
-
-                uclient = Request(url)
-
-                uclient.add_header("User-Agent",
-                                   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36")
-                uclient.add_header("Accept", "*/*")
-                uclient.add_header("Accept-Language",
-                                   "en-GB,en-US;q=0.9,en;q=0.8")
-                uclient.add_header("Accept-Encoding", "gzip, deflate")
-                uclient.add_header("Connection", "keep-alive")
-                response = urlopen(uclient, timeout=120)
+                import notifier
+                notifier.send_message("TELEGRAM_BOT_BLOCK", "-1001590697850", "<b>" + foldername + " AutoCheckout stop</b> = "+text+" !! \n\n To stop keywords - true,yes,1,nponly,plusonly,codonly", disable_notification=True)
 
             elif text.find("/donotsave") != -1:
                 text = text.replace("/donotsave", "")
@@ -248,7 +215,7 @@ def block(foldername):
                     # print(os.path.basename(mod.__file__))
 
                     
-                    url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
+                    url = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_BLOCK')}/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
                         "<b>" + foldername + " " + lid + " </b> saved in DB. !!")
 
                     uclient = Request(url)
@@ -279,7 +246,7 @@ def block(foldername):
                     # print(os.path.basename(mod.__file__))
 
                     
-                    url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
+                    url = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_BLOCK')}/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
                         "<b>" + foldername + " " + lid + " </b> saved in DB. !!")
 
                     uclient = Request(url)
@@ -333,19 +300,8 @@ def checkstop(foldername):
 
 
         if get_contents_1.find("true") != -1 or get_contents_1.find("yes") != -1 or get_contents_1.find("1") != -1:
-            url = "https://api.telegram.org/bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
-                "<b>" + foldername + " \n Checkout stopped!\n URGENT MESSAGE</b>")
-
-            uclient = Request(url)
-
-            uclient.add_header("User-Agent",
-                               "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36")
-            uclient.add_header("Accept", "*/*")
-            uclient.add_header("Accept-Language",
-                               "en-GB,en-US;q=0.9,en;q=0.8")
-            uclient.add_header("Accept-Encoding", "gzip, deflate")
-            uclient.add_header("Connection", "keep-alive")
-            response = urlopen(uclient, timeout=120)
+            import notifier
+            notifier.send_message("TELEGRAM_BOT_BLOCK", "-1001590697850", "<b>" + foldername + " \n Checkout stopped!\n URGENT MESSAGE</b>", disable_notification=True)
     except Exception as e:
         print(str(e))
         logger.error("checkstop" + str(e))

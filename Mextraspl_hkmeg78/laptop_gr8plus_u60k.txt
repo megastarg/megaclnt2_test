@@ -1,0 +1,7 @@
+17:32:29 => Q technologies Q1 Neo Laptop (i5 14th Gen) Intel Core 5 13th Gen - (16 GB + 32 GB Optane/2 TB/256 GB SSD/Windows 11 Home/8 GB Graphics) Q1 Neo Laptop => ok => 99999 => 50042 => LSTCOMHHKZHG3ZNJMZQLHJQ49
+17:32:29 => HP HP 255R G10 (2025) Professional AMD Ryzen 3 Quad Core 7335U - (8 GB/512 GB SSD/Windows 11 Home/8 GB Graphics) 255R G10 Thin and Light Laptop => ok => 59999 => 53090 => LSTCOMHNSFRSH2ZUHQXZQWYOM
+17:32:29 => DELL DC 15250(i3 14th Gen) Intel Core 3 14th Gen 100U - (8 GB/512 GB SSD/Windows 11 Home/8 GB Graphics) DC 15250 Thin and Light Laptop => ok => 69999 => 57485 => LSTCOMHNW2W9QDJDHSRBPE3CG
+17:32:29 => DELL Inspiron 15 - 100U Intel Core i3 14th Gen - (8 GB/512 GB SSD/Windows 11 Home/8 GB Graphics) Dc 15250 Thin and Light Laptop => ok => 69000 => 58026 => LSTCOMHM23VAE3KFTG9YA9SD9
+17:32:29 => DELL 22X09D4(i3 14th Gen) Intel Core 3 3rd Gen - (8 GB/512 GB SSD/8 GB EMMC Storage/Windows 11 Home/8 GB Graphics) GX21-71 Thin and Light Laptop => ok => 60000 => 58607 => LSTCOMHHQZTJQCNDTDXHXJXEX
+17:32:29 => HP AMD Ryzen 5 Hexa Core - (8 GB/512 GB SSD/Windows 11 Home/8 GB Graphics) 15s- eq2182AU Thin and Light Laptop => ok => 62182 => 59150 => LSTCOMH9CANZHYKB9ERO6ATV8
+17:32:29 => HP Intel Core i3 13th Gen - (8 GB/8 GB SSD/8 GB EMMC Storage/Windows 11 Home/8 GB Graphics) 250R G9 Laptop => ok => 75990 => 59790 => LSTCOMHDG83GBHEHZNHP0OV1R

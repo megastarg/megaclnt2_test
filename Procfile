@@ -1,1 +1,1 @@
-worker: python appliances_M.py & python appliances_W.py
+worker: python scraper_engine.py

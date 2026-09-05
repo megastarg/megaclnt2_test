@@ -232,12 +232,11 @@ def sellerspage(url, minprice, maxprice, qt, phonepe, checkouton):
                     }
             print(str(currenttime) + " = " + lowestseller + " [" + pid + "]" + " -> " + lowestprice + " -> " + lowestlid + " -> " + title)
             if float(lowestprice)>float(minprice) and float(lowestprice)<float(maxprice):
-                msg = urllib.parse.quote("<b>URGENT :- BIS("+scriptname+")</b>\n" + lowestseller + "\n" + lowestprice + " Rs.\n\n" + url + "&lid=" + lowestlid)
-                telegramurl = "https://api.telegram.org/bot5595946728:AAE04_hy37h-SNUAKgC9nrUOjr-c-513Tm8/sendMessage?chat_id=-4629487139&parse_mode=HTML&disable_web_page_preview=1&text=" + msg
-                #r = requests.get(telegramurl, headers=header, proxies={"http": "", "https": ""}, timeout=15, verify=False)
+                msg = "<b>URGENT :- BIS("+scriptname+")</b>\n" + lowestseller + "\n" + lowestprice + " Rs.\n\n" + url + "&lid=" + lowestlid
                 try:
-                    myasyncsend(telegramurl, header)
-                except:
+                    import notifier
+                    notifier.send_message("TELEGRAM_BOT_BIS", "-4629487139", msg, disable_web_page_preview=True)
+                except Exception as e:
                     pass
 
                 params = []
@@ -333,12 +332,11 @@ def checkstatus(url, minprice, maxprice, qt, phonepe, checkouton):
             header.update([("User-Agent", "Mozilla/5.0 (Linux; Android 8.1.0; ASUS_X00TD Build/OPM1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.78 Mobile Safari/537.36")])
 
             if float(price) < float(maxprice):
-                msg = urllib.parse.quote("<b>URGENT :- BIS("+scriptname+")</b>\n"+status+"\n"+price+"\n\n"+sellername+"\n\n"+url)
-                telegramurl = "https://api.telegram.org/bot5595946728:AAE04_hy37h-SNUAKgC9nrUOjr-c-513Tm8/sendMessage?chat_id=-4629487139&parse_mode=HTML&disable_web_page_preview=1&text=" + msg
-                #r = requests.get(telegramurl, headers=header, proxies={"http": "", "https": ""}, timeout=15, verify=False)
+                msg = "<b>URGENT :- BIS("+scriptname+")</b>\n"+status+"\n"+price+"\n\n"+sellername+"\n\n"+url
                 try:
-                    myasyncsend(telegramurl, header)
-                except:
+                    import notifier
+                    notifier.send_message("TELEGRAM_BOT_BIS", "-4629487139", msg, disable_web_page_preview=True)
+                except Exception as e:
                     pass
 
                 params = []
@@ -675,7 +673,9 @@ def telegram_newbis():
                 f.close()
 
             try:
-                url = "https://api.telegram.org/bot5595946728:AAE04_hy37h-SNUAKgC9nrUOjr-c-513Tm8/getUpdates?offset=-1"
+                import notifier
+                token = notifier.get_bot_token("TELEGRAM_BOT_BIS")
+                url = f"https://api.telegram.org/{token}/getUpdates?offset=-1"
 
                 uclient = Request(url)
 
@@ -735,15 +735,8 @@ def telegram_newbis():
                                 for line in mod_alllines:
                                     ff.write(f"{line}")
 
-                            url = "https://api.telegram.org/bot5595946728:AAE04_hy37h-SNUAKgC9nrUOjr-c-513Tm8/sendMessage?chat_id=-4629487139&disable_notification=1&parse_mode=HTML&text="+urllib.parse.quote("Bis deleted "+ str(user) +": \n\n" + repliedtext + "\n\ncount=" + str(len(mod_alllines)))
-                            uclient = Request(url)
-                            uclient.add_header(
-                                "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36")
-                            uclient.add_header("Accept", "*/*")
-                            uclient.add_header("Accept-Language", "en-GB,en-US;q=0.9,en;q=0.8")
-                            uclient.add_header("Accept-Encoding", "gzip, deflate")
-                            uclient.add_header("Connection", "keep-alive")
-                            response = urlopen(uclient, timeout=120)
+                            import notifier
+                            notifier.send_message("TELEGRAM_BOT_BIS", "-4629487139", "Bis deleted "+ str(user) +": \n\n" + repliedtext + "\n\ncount=" + str(len(mod_alllines)), disable_notification=True)
 
                             if os.name == 'nt':
                                 subprocess.call(["cmd.exe", "/c", "START", "python", __file__])
@@ -761,15 +754,8 @@ def telegram_newbis():
                             with open("bis.txt", "a+") as ff:
                                 bistext = producturl + ",10,0," + str(maxprice) + "," + str(refreshtime) + ",yes,"+checkouton+",telegram,99999999"
                                 ff.write("\r\n"+bistext)
-                                url = "https://api.telegram.org/bot5595946728:AAE04_hy37h-SNUAKgC9nrUOjr-c-513Tm8/sendMessage?chat_id=-4629487139&disable_notification=1&parse_mode=HTML&text="+urllib.parse.quote("New Bis started by "+ str(user) +": \n\n" + bistext)
-                                uclient = Request(url)
-                                uclient.add_header(
-                                    "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36")
-                                uclient.add_header("Accept", "*/*")
-                                uclient.add_header("Accept-Language", "en-GB,en-US;q=0.9,en;q=0.8")
-                                uclient.add_header("Accept-Encoding", "gzip, deflate")
-                                uclient.add_header("Connection", "keep-alive")
-                                response = urlopen(uclient, timeout=120)
+                                import notifier
+                                notifier.send_message("TELEGRAM_BOT_BIS", "-4629487139", "New Bis started by "+ str(user) +": \n\n" + bistext, disable_notification=True)
 
                             if os.name == 'nt':
                                 subprocess.call(["cmd.exe", "/c", "START", "python", __file__])
