@@ -26,7 +26,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-foldername = "megaclntw2_sale_spl/"
+foldername = "megaclntw2_hkaayu_spl/"
 if not os.path.exists(foldername):
     os.mkdir(foldername)
 
