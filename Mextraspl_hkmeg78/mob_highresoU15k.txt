@@ -9,3 +9,10 @@
 17:32:29 => Apple iPhone 5C (Blue, 8 GB) => Currently unavailable => 37500 => 14999 => LSTMOBDWXZTZ3DXF3P6D2FTHH
 17:32:29 => Apple iPhone 5C (White, 8 GB) => Coming Soon => 37500 => 14999 => LSTMOBDWXZTHPFTTRVGWDK4D6
 17:32:29 => Apple iPhone 5s (Gold, 16 GB) => Coming Soon => 35000 => 14999 => LSTMOBDPPZZDX8WSPATIOCQND
+18:37:06 => Peace H 20 (Orange, 32 GB) => ok => 6999 => 6800 => LSTMOBHQQQHAYEYFHFHE3JPIN
+18:37:06 => Peace HR 20 (Classic Blue, 64 GB) => ok => 6999 => 6800 => LSTMOBHQV7RZYZKMNH4L237QX
+18:37:06 => Peace H20 (Blue, 64 GB) => Currently unavailable => 6999 => 6800 => LSTMOBHQ7VW9XEEPET2RMMFOY
+18:37:06 => Peace H20 (Blue, 64 GB) => Currently unavailable => 6999 => 6800 => LSTMOBHQ7VW9XEEPET2RMMFOY
+18:37:06 => Peace H20 (Blue, 64 GB) => Currently unavailable => 6999 => 6800 => LSTMOBHQ7VW9XEEPET2RMMFOY
+18:37:06 => Peace H20 (Blue, 64 GB) => Currently unavailable => 6999 => 6800 => LSTMOBHQ7VW9XEEPET2RMMFOY
+18:37:06 => Peace H 20 (ROYAL BLUE, 32 GB) => Currently unavailable => 6999 => 6800 => LSTMOBHQHVF4BTRVGECMUP4FB

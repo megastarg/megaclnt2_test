@@ -1,0 +1,3 @@
+18:36:30 => HP DeskJet 2131 All-in-One Printer => IN_STOCK => 4288 => 2009 => LSTPRNE9ZUQFCTH2WFZ8NOS1B
+18:36:30 => Canon PIXMA MG3670 Multi-function WiFi Color Inkjet Printer => IN_STOCK => 5525 => 2679 => LSTPRNEETGAFTFUCWZ7PGIAGU
+18:36:30 => HP DeskJet Ink Advantage 2138 Multi-function Color Inkjet Printer => IN_STOCK => 6187 => 2909 => LSTPRNEZY3U5FZED6HFZMFUUX

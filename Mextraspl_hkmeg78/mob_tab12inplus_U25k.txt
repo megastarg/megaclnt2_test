@@ -15,3 +15,6 @@
 17:32:30 => Lenovo Tab P12 8 GB RAM 256 GB ROM 12.7 Inch with Wi-Fi Only Gaming MediaTek Dimensity 7050 Tablet (Storm Grey) => ok => 42000 => 24148 => LSTTABGSGGGSCBWGGZYSJLYZH
 17:32:30 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => ok => 26999 => 24999 => LSTTABH32JHGNVFKTDAEBHAQF
 17:32:30 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Snapdragon 7s Gen 2 Tablet (Quick Silver) => ok => 26999 => 24999 => LSTTABH32JHT2TXRZFRASDWBU
+18:37:06 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Qualcomm Snapdragon 7s Gen 2 Tablet (Graphite Grey) => Currently unavailable => 27999 => 21999 => LSTTABH32JHGNVFKTDAAHKUYD
+18:37:06 => REDMI  Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Gaming Snapdragon 7s Gen 2 Tablet (Quick Silver) => Currently unavailable => 27999 => 23896 => LSTTABH32JHT2TXRZFRM6LCBD
+18:37:06 => POCO Pad 5G 8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Qualcomm Snapdragon 7s Gen 2 Tablet (Cobalt Blue) => Currently unavailable => 30999 => 23990 => LSTTABH3QBC2AGQXZ2GIYUT8P

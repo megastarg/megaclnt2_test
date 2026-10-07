@@ -1,0 +1,25 @@
+[18:36:23] hk1_spl2/AC_20k.txt                 0   |  0 Results
+[18:36:23] hk1_spl2/laptop_15k.txt             0   |  0 Results
+[18:36:23] hk1_spl2/fridge_10k.txt             1   |  1 Results
+[18:36:23] hk1_spl2/mob1.txt                   5   |  5 Results
+[18:36:23] hk1_spl2/tv_18k.txt                 0   |  0 Results
+[18:36:23] hk1_spl2/tv_4k8k_21k.txt            5   |  5 Results
+[18:36:23] hk1_spl2/tv_10k50p.txt              1   |  1 Results
+[18:36:23] hk1_spl2/appliances_500.txt         2   |  1 Results
+[18:36:23] hk1_spl2/mob2.txt                   5   |  5 Results
+[18:36:23] hk1_spl2/fans_1000.txt              0   |  0 Results
+[18:36:28] hk1_spl2/mob_3k.txt                 0   |  0 Results
+[18:36:28] hk1_spl2/laptop_50p25k.txt          2   |  2 Results
+[18:36:28] hk1_spl2/mob4.txt                   0   |  0 Results
+[18:36:28] hk1_spl2/laptop_50p40k.txt          2   |  1 Results
+[18:36:28] hk1_spl2/cycles_3000.txt            7   |  7 Results
+[18:36:28] hk1_spl2/printer_5k.txt             0   |  0 Results
+[18:36:28] hk1_spl2/mob50p.txt                 8   |  8 Results
+[18:36:28] hk1_spl2/mob50p5g.txt               9   |  9 Results
+[18:36:28] hk1_spl2/laptop_processor50p30k.txt 0   |  0 Results
+[18:36:28] hk1_spl2/mob_big.txt                20  | 20 Results
+[18:36:28] hk1_spl2/mob3.txt                   1   |  1 Results
+[18:36:28] hk1_spl2/laptop_brand50p25k.txt     2   |  2 Results
+[18:36:28] hk1_spl2/laptop_type50p50k.txt      0   |  0 Results
+[18:36:28] hk1_spl2/treadmill_15k.txt          1   |  1 Results
+Telegram = off

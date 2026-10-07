@@ -8,3 +8,9 @@
 00:49:03 => BPL 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 12490 => 9790 => LSTRFRH74U4W5FH6BJYYWHX5W
 00:49:03 => Lloyd by Havells 92 L Direct Cool Single Door 1 Star Refrigerator  with Dedicated Freezer Section Big Bottle StorageFull Vegetable Box => ok => 14290 => 9990 => LSTRFRHAH6F6ZMTVURFXIZMYH
 00:49:03 => LG 43 L Direct Cool Single Door 1 Star Refrigerator => ok => 11999 => 9990 => LSTRFRGZV4YBGYH8K7FHYNAYJ
+18:33:47 => Midea 50 L Direct Cool Single Door 1 Star Refrigerator => ok => 12990 => 8811 => LSTRFRHK7BETXXN6HMFI4YSHL
+18:33:47 => Midea 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 11990 => 8990 => LSTRFRGD45YGVPCJSGBEOAVTW
+18:33:47 => Rockwell 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 18515 => 9138 => LSTRFRHNDJWD7BXHFDH12RPFV
+18:33:47 => Rockwell 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 18515 => 9142 => LSTRFRHNDJVCNM3K7YHUL8HKO
+18:33:47 => Rockwell 45 L Direct Cool Single Door 2 Star Refrigerator => ok => 18515 => 9238 => LSTRFRH78H5JAGZFZKVZYWRHQ
+18:33:47 => Lloyd 48 L Direct Cool Single Door 1 Star Refrigerator => ok => 13690 => 9290 => LSTRFRHZB5RPKX5ZFUMENYNEL

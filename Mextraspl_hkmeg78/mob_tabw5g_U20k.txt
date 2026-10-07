@@ -6,3 +6,5 @@
 17:32:29 => Samsung Galaxy Tab A9+ 8 GB RAM 128 GB ROM 11.0 inch with Wi-Fi+5G Qualcomm Snapdragon 695 Tablet (Silver) => Currently unavailable => 32999 => 18490 => LSTTABGTF4GNVTZTZPMMHTMFR
 17:32:29 => MOTOROLA Pad 60 Neo 8 GB RAM 128 GB ROM 11 inch with Wi-Fi+5G MediaTek Dimensity 6300 Tablet (PANTONE Bronze Green) => Currently unavailable => 28000 => 18999 => LSTTABHETUGU6T947RJEDURTZ
 17:32:29 => Lenovo M10 5G 4 GB RAM 128 GB ROM 10.61 inch with Wi-Fi+5G Qualcomm Snapdragon 695 Tablet (Abyss Blue) => Currently unavailable => 40000 => 19990 => LSTTABGR948VZGNHH3501FOW7
+18:37:02 => Ai+ NovaTab 6 GB RAM 128 GB ROM 11.97 inch with Wi-Fi+5G Gaming UNISOC T760, Octa Core Tablet (Dark Blue) => Coming Soon => 27999 => 19999 => LSTTABHRF2HZT6VTUG35R3ECK
+18:37:02 => Ai+ NovaTab 6 GB RAM 128 GB ROM 11.97 inch with Wi-Fi+5G Gaming UNISOC T760, Octa Core Tablet (Cinnamon Brown) => Coming Soon => 27999 => 19999 => LSTTABHRF2HRE7J3QVFGZKTBI

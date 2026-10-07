@@ -1,0 +1,41 @@
+[18:36:46] hk3_p6/graphiccards.txt             4   |  4 Results
+[18:36:46] hk3_p6/monitors.txt                 11  | 11 Results
+[18:36:46] hk3_p6/desktopPC.txt                3   |  3 Results
+[18:36:46] hk3_p6/routers.txt                  0   |  0 Results
+[18:36:46] hk3_p6/men_personal_care_and_health_brand.txt 24  | 20 Results
+[18:36:46] hk3_p6/luggage_travel_600.txt       17  |  0 Results
+[18:36:46] hk3_p6/watches_40.txt               0   |  0 Results
+[18:36:46] hk3_p6/men_Bblazzers.txt            0   |  0 Results
+[18:36:46] hk3_p6/cameras.txt                  104 | 20 Results
+[18:36:46] hk3_p6/women_saree_100.txt          103 |  0 Results
+[18:36:46] hk3_p6/watches_brand.txt            39  |  0 Results
+[18:36:46] hk3_p6/men_footwear_brands_300.txt  88  |  0 Results
+[18:36:46] hk3_p6/women_ethnic.txt             0   |  0 Results
+[18:36:47] hk3_p6/men_footwear_100.txt         1335|  0 Results
+[18:36:47] hk3_p6/clothingNacc.txt             22985|  0 Results
+[18:36:47] hk3_p6/datacards.txt                7   |  7 Results
+[18:36:47] hk3_p6/men_tshirts.txt              21  | 20 Results
+[18:36:47] hk3_p6/men_shirts_brand.txt         22  |  0 Results
+[18:36:51] hk3_p6/women_jumpsuits.txt          13  |  0 Results
+[18:36:51] hk3_p6/men_blazers.txt              0   |  0 Results
+[18:36:51] hk3_p6/men_personal_care_appliances_brand.txt 0   |  0 Results
+[18:36:51] hk3_p6/women_dress_gowns.txt        0   |  0 Results
+[18:36:51] hk3_p6/men_tshirts_brand.txt        0   |  0 Results
+[18:36:51] hk3_p6/men_winterwear.txt           17  |  0 Results
+[18:36:51] hk3_p6/women_winter.txt             31  |  0 Results
+[18:36:51] hk3_p6/men_jeans.txt                0   |  0 Results
+[18:36:51] hk3_p6/men_watch.txt                0   |  0 Results
+[18:36:51] hk3_p6/men_footwearu100.txt         0   |  0 Results
+[18:36:51] hk3_p6/men_runningshoe.txt          36  |  0 Results
+[18:36:51] hk3_p6/men_winterwear_brand.txt     21  |  0 Results
+[18:36:51] hk3_p6/women_footwear.txt           37  |  0 Results
+[18:36:51] hk3_p6/bags_wallet_belts.txt        339 |  0 Results
+[18:36:51] hk3_p6/men_blazers_brand.txt        2   |  2 Results
+[18:36:51] hk3_p6/men_trouser.txt              0   |  0 Results
+[18:36:51] hk3_p6/men_innerware.txt            13  |  0 Results
+[18:36:52] hk3_p6/men_shirts.txt               2   |  0 Results
+[18:36:52] hk3_p6/women_clothing.txt           393 |  0 Results
+[18:36:52] hk3_p6/men_jeans.txt                1   |  0 Results
+[18:36:52] hk3_p6/men_shirt.txt                0   |  0 Results
+[18:36:54] hk3_p6/men_sportshoeu499.txt        39  |  0 Results
+Telegram = off

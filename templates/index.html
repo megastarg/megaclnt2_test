@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Scraper Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo-box">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+            </div>
+            <h1>Add New Tracking Link</h1>
+            <p>Inject new scraping targets dynamically without restarting the engine.</p>
+        </header>
+
+        <form id="add-link-form">
+            <div class="input-group">
+                <label for="category">Category (Group)</label>
+                <div class="input-wrapper">
+                    <input type="text" id="category" list="category-options" placeholder="e.g. Mextraspl_hkmeg78/" required autocomplete="off">
+                    <datalist id="category-options"></datalist>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="filename">Target Filename</label>
+                <div class="input-wrapper">
+                    <input type="text" id="filename" placeholder="e.g. mob_test.txt" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="url">Flipkart Search URL</label>
+                <div class="input-wrapper">
+                    <input type="url" id="url" placeholder="https://www.flipkart.com/..." required>
+                </div>
+            </div>
+
+            <div class="switches-container">
+                <label class="switch-item">
+                    <span class="switch-label">
+                        <strong>Force Checkout</strong>
+                        <span>Ignore logic requirements</span>
+                    </span>
+                    <input type="checkbox" id="force">
+                    <span class="slider"></span>
+                </label>
+
+                <label class="switch-item">
+                    <span class="switch-label">
+                        <strong>Not Assured</strong>
+                        <span>Scrape non-FA products</span>
+                    </span>
+                    <input type="checkbox" id="notassured">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <button type="submit" id="submit-btn">
+                <span>Deploy to Engine</span>
+                <div class="spinner" id="spinner"></div>
+            </button>
+        </form>
+    </div>
+
+    <!-- Toast Notification System -->
+    <div id="toast-container"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

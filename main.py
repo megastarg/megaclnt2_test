@@ -1,6 +1,7 @@
 import base64
 import concurrent.futures
 import random
+import time
 import uuid
 from multiprocessing.pool import ThreadPool
 from urllib.request import Request, urlopen
@@ -20,7 +21,7 @@ import aiohttp
 
 from requests.packages import urllib3
 import os
-if os.name=="nt":
+if os.name=="nt123":
     import httpx
 else:
     from curl_cffi import requests
@@ -52,27 +53,14 @@ def random_useragent(afile):
 
 def myasyncsend(telegramurl):
     try:
-        import urllib.parse as urlparse
-        from urllib.parse import parse_qs
-        import notifier
+        header = {}
+        header.update([("accept-language", "en-US,en;q=0.9")])
+        header.update([("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3")])
+        header.update([("accept-encoding", "gzip, deflate")])
+        header.update([("User-Agent", "Mozilla/5.0 (Linux; Android 8.1.0; ASUS_X00TD Build/OPM1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.78 Mobile Safari/537.36")])
 
-        # Extract token and route to the correct bot env
-        token = telegramurl.split("/bot")[1].split("/")[0]
-        bot_env = "TELEGRAM_BOT_MAIN"
-        if os.environ.get('TELEGRAM_BOT_ALT') and os.environ.get('TELEGRAM_BOT_ALT') in token:
-            bot_env = "TELEGRAM_BOT_ALT"
-        elif os.environ.get('TELEGRAM_BOT_BLOCK') and os.environ.get('TELEGRAM_BOT_BLOCK') in token:
-            bot_env = "TELEGRAM_BOT_BLOCK"
-        
-        parsed = urlparse.urlparse(telegramurl)
-        params = parse_qs(parsed.query)
-        chatid = params.get('chat_id', [''])[0]
-        text = params.get('text', [''])[0]
-        disable_notif = True if params.get('disable_notification', ['0'])[0] == '1' else False
-        
-        notifier.send_message(bot_env, chatid, text, disable_notification=disable_notif)
-    except Exception as e:
-        print("myasyncsend err:", e)
+        asyncio.run(async_request(telegramurl, headers=header, proxies="", timeout=15, verify=False))
+    except:
         return
 
 async def async_request(url, headers, proxies, timeout, verify):
@@ -107,7 +95,7 @@ def deletesavedtext(filename):
                     else:
                         textfound = 1
             if textfound == 1:
-                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote("IN " + filename + " " + get_contents + " lines cleared")
+                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote("IN " + filename + " " + get_contents + " lines cleared")
                 myasyncsend(telegramurl)
 
         except Exception as e:
@@ -453,7 +441,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
         d_shuffled = dict(l)
 
         try:
-            if os.name=="nt":
+            if os.name=="nt123":
                 try:
                     #proxies = {"http://": "http://127.0.0.1:8888", "https://": "http://127.0.0.1:8888"}
                     proxies = {}
@@ -461,12 +449,19 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                 except Exception as e:
                     r = httpx.get(myurl, headers=d_shuffled, verify=False, proxies=proxies)
             else:
+                proxies = {"http": "http://127.0.0.1:8888", "https": "http://127.0.0.1:8888"}
+                proxies = {}
+                impersonations = ["chrome99_android","firefox147","chrome116","safari260","chrome146","edge101","safari260_ios","firefox135"]
                 try:
-                    r = requests.get(myurl, headers=d_shuffled, verify=False, impersonate="firefox")
+                    r = requests.get(myurl, headers=d_shuffled, proxies=proxies, verify=False, impersonate=random.choice(impersonations))
                 except:
-                    r = requests.get(myurl, headers=d_shuffled, verify=False, impersonate="safari")
+                    r = requests.get(myurl, headers=d_shuffled, proxies=proxies, verify=False, impersonate="chrome110")
 
             html=r.text
+            if r.status_code>=400:
+                print(filename + " -> " + str(r.status_code) + " error")
+                res_queue.put(str('{0:<35} 529 Error'.format(filename)))
+                return
 
             if html.find("recaptcha")!=-1:
                 print("recaptcha")
@@ -486,7 +481,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                     fl.close()
 
                 if date not in get_contentsfl:
-                    telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_ALT')}/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+                    telegramurl = "https://api.telegram.org/bot1311880981:AAG9eM_c62lH5ITjMp_OzR7Klp40e3urnjA/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
                         "<b>" + filename + " => Content Not Found</b> \n Flipkart dead.")
                     myasyncsend(telegramurl)
 
@@ -500,7 +495,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
 
     try:
         if html.find("\"isLoggedIn\":false") != -1:
-            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
             "ACC LOGOUT \nL-(" + filename + ")")
             #myasyncsend(telegramurl)
     except Exception as e:
@@ -520,6 +515,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
             fl = open("new_ex.html", "w+")
             fl.write(date + "\r\n" + str(e) + "\r\n" + myurl + "\r\n" + html)
             fl.close()
+        print(filename + " -> Unknown page found.")
         return
 
     jsonarray = json.loads(mat)
@@ -537,6 +533,15 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
     except Exception as e:
         appliedfilter = 10000
 
+    fakepage=False
+    try:
+        suburl = re.search("https://www.flipkart.com(.*?)\?", myurl)
+        suburl = suburl[1]
+        if html.find(suburl)==-1:
+            fakepage=True
+    except Exception as e:
+        return
+
     filterinlinks = re.findall("facets.(.*?)%3D", myurl)
     filterinlink = len(set(filterinlinks))
     if filterinlinks.count("price_range.from") == 1:
@@ -545,15 +550,25 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
         filterinlink -= 1
 
     if appliedfilter == 0:
-        telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+        telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
             "<b>W-(" + filename + ") \n FILTER 0. \n"+str(totalproducts)+" products</b>")
         #myasyncsend(telegramurl)
         return
 
     if appliedfilter < filterinlink:
-        telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+        telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
             "<b>W-(" + filename + ") \n FILTER mismatch. \n"+str(appliedfilter)+" filters. "+str(totalproducts)+" products</b>")
         #myasyncsend(telegramurl)
+
+    if fakepage == True and totalproducts>60:
+        telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+            "<b>W-(" + filename + ") \n FakePage detected. \n"+str(totalproducts)+" products</b>")
+        myasyncsend(telegramurl)
+        if not os.path.exists('logggs'):
+            os.makedirs('logggs')
+        with open("logggs/fakepage_"+str(random.randint(1, 100))+".html", "w+") as w:
+            w.write(myurl+"\n"+filename+"\n"+str(html.encode('utf-8')))
+        return
 
     # print(pages)
 
@@ -763,7 +778,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 if controlspam(name,cp,listingid) == True:
                                     continue
                                 if telegram != "off":
-                                    telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id="+ chatid +"&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
+                                    telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id="+ chatid +"&disable_notification=1&parse_mode=HTML&text=" + urllib.parse.quote(
                                         word + "\nL-(" + filename + ") " + currenttime + " => " + name + " - " + listingid + "\n " + mrp + " =>\n" + cp + " + " + delcharge + " Rs.\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                     myasyncsend(telegramurl)
@@ -782,7 +797,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                         if (total <= 20000 or discount >= 50) and telegram != "off" and docheckout == True and availability != "OUT_OF_STOCK":
 
                             if ((discount >= 97 and float(cp) < 20) or float(cp) < 20) and sellertype == "F_ASSURED" and listingid not in get_contents:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[1] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -791,7 +806,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                     checkoutpro = 1
 
                             elif discount >= 90 and total <= 100:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_ALT')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot1311880981:AAG9eM_c62lH5ITjMp_OzR7Klp40e3urnjA/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[2] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -799,7 +814,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                             elif discount >= 96 or float(cp) < 70:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[3] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -807,7 +822,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                             elif float(cp) >= 1999 and float(cp) <= 2001 and discount < 10:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[4] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -815,7 +830,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                             elif discount >= 70 and force == 1:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[5] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -823,7 +838,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                             elif specialforce == True and force == 1:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[6] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -831,7 +846,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                             elif discount >= 90 or total < 70 or mrp == cp or mrp == "" or mrp == "0":
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[7] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -839,7 +854,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                             elif discount >= 85 and total < 500:
-                                telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                                telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                     "<b>L-(" + filename + ")[8] " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                         discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                                 myasyncsend(telegramurl)
@@ -847,25 +862,25 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                                 checkoutpro = 1
 
                         elif telegram != "off" and filename.find("grocery")!=-1 and (discount >= 70 or total<=15)  and availability != "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&disable_notification=1&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&disable_notification=1&text=" + urllib.parse.quote(
                                 "<b>L-(" + filename + ") grocery nocheckout \n " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
                         elif telegram != "off" and filename.find("grocery")==-1 and bloc==0 and (discount > 80 or mrp == "" or mrp == cp or mrp == "0" or total <= 100 or
                                                    (float(mrp) < float(cp) + 101)) and availability != "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&disable_notification=1&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&disable_notification=1&text=" + urllib.parse.quote(
                                 "<b>L-(" + filename + ") checkout stopped \n " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
                         elif telegram != "off" and bloc==0 and (discount >= 50 or mrp == "") and force == 1 and availability != "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&disable_notification=1&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&disable_notification=1&text=" + urllib.parse.quote(
                                 "<b>L-(" + filename + ") checkout stopped \n " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
 
 
                         if permanentbypassed != "False":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                 "permanent bypassed " + str(permanentbypassed) + "\nL-(" + filename + ") " + currenttime + " => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
@@ -884,7 +899,7 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
                         if telegramsent==False and checkoutpro == 1 and falsealert != 1:
                             checkoutpro = 0
 
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
                                 "<b>L-(" + filename + ") " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
@@ -900,14 +915,14 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
 
                         elif telegramsent==False and telegram != "off" and (discount > 80 or mrp == "" or mrp == cp or mrp == "0" or total <= 100 or
                                                                           (float(mrp) < float(cp) + 101)) and availability != "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
                                 "<b>L-(" + filename + ") " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
 
                         elif telegramsent==False and telegram != "off" and (
                                 discount >= 50 or mrp == "") and force == 1 and availability != "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=" + chatid + "&parse_mode=HTML&text=" + urllib.parse.quote(
                                 "<b>L-(" + filename + ") " + currenttime + "</b> => " + name + " - " + listingid + "\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n" + str(
                                     discount) + " %\n " + availability + "\n" + sellertype + " @mausa_bot" + "\n" + link)
                             myasyncsend(telegramurl)
@@ -916,14 +931,14 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
 
                         '''
                         if docheckout == False and (discount >= 60 or mrp == "" or float(cp) < 80) and availability != "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_ALT')}/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot1311880981:AAG9eM_c62lH5ITjMp_OzR7Klp40e3urnjA/sendMessage?chat_id=-1001590697850&parse_mode=HTML&text=" + urllib.parse.quote(
                                 "<b>WEB-(" + filename + ") " + currenttime + "</b> => " + name + " - " + listingid + " =>\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n => (" + str(
                                     discount) + " %) =>\n " + availability + "\nBlocked reason = " + blockedword + "\n" + sellertype + "\n" + link)
                             myasyncsend(telegramurl)
                         '''
                         '''
                         elif telegram != "off" and name + " => " + availability not in get_contents and (discount > 70 or total < 70) and availability == "OUT_OF_STOCK":
-                            telegramurl = f"https://api.telegram.org/{os.environ.get('TELEGRAM_BOT_MAIN')}/sendMessage?chat_id=-939189614&parse_mode=HTML&text=" + urllib.parse.quote(
+                            telegramurl = "https://api.telegram.org/bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI/sendMessage?chat_id=-939189614&parse_mode=HTML&text=" + urllib.parse.quote(
                                 "<b>mob_p_OOS-(" + filename + ") " + currenttime + "</b> => " + name + " - " + listingid + " =>\n " + mrp + " =>\n <b>" + cp + " + " + delcharge + " Rs.</b>\n => (" + str(
                                     discount) + " %) =>\n " + availability + "\n" + link)
                             uclient = Request(telegramurl)
@@ -973,8 +988,31 @@ def flipkart_parse(filename, telegram, force, myurl, res_queue, stop_not_assured
 
 
 def telegram_send(telegramurl):
-    myasyncsend(telegramurl)
-    return ""
+    try:
+        uclient = Request(telegramurl)
+        response = urlopen(uclient, timeout=30)
+
+        if response.info().get('Content-Encoding') == 'gzip':
+            html = gzip.decompress(response.read()).decode('utf8')
+        elif response.info().get('Content-Encoding') == 'deflate':
+            html = response.read().decode('utf8')
+        else:
+            html = response.read().decode('utf8')
+
+        if html.find("\"ok\":true") == -1:
+            f = open("telegramerrors.txt", "a+")
+            f.write("\n" + telegramurl + "\n" + html + "\n")
+            f.close()
+
+            telegramurl = telegramurl.replace("bot630455540:AAHtnLN2YFEzDpiVWeZBInQ_nlsPCpFzNEI", "bot923259452:AAG1tBRBM7PIIYUL1g789IP4tBMgsI8uOJg")
+            uclient = Request(telegramurl)
+            response = urlopen(uclient, timeout=30)
+        return response
+    except Exception as e:
+        '''f1 = open('exceptions.txt', 'a+')
+        f1.write("\r\n ------------------------- \r\n" + telegramurl + "\r\n" + str(e) + "\r\n")
+        f1.close()'''
+        return ""
 
 def logthehtml(filename, htmldata):
     with open(filename + str(random.randint(1, 1000)) + ".html", "w+", encoding="utf-8") as f1:

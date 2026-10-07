@@ -1,3 +1,16 @@
 00:49:03 => FABER Master Chef 800 W Mixer Grinder => ok => 9290 => 999 => LSTMIXG69KKQZ9HDXH35IFWD5
 00:49:03 => Edel by Lifelong Premio 2.0 800 W Juicer Mixer Grinder => ok => 5499 => 999 => LSTMIXGHXR6MDSST7ZNTLRVIL
 00:49:03 => Prestige (Wet Jar-1600 ml, Dry Jar-1100 ml, Chutney Jar-450 ml) 550 W Mixer Grinder => ok => 3995 => 999 => LSTMIXGRZNMNXDFN5CG9GAS12
+18:33:51 => NutriPro 001 50 W Juicer Mixer Grinder => ok => 1999 => 498 => LSTMIXHZWHDYCNZKHHV0JHQKD
+18:33:51 => NutriPro ELECTRIC_JUICER 50 W Juicer Mixer Grinder => ok => 1999 => 498 => LSTMIXHPW7AHJWBAKYFRDACPS
+18:33:51 => NutriPro JUICER001 50 W Juicer Mixer Grinder => ok => 1199 => 500 => LSTMIXHQ65SZ76PHSSJ3PM8QO
+18:33:51 => NutriPro Portable Blender Series 50 W Juicer Mixer Grinder => ok => 1999 => 525 => LSTMIXHPDS6GVVWRHQK3EJXCX
+18:33:51 => NutriPro Portable Blender Series 50 W Juicer Mixer Grinder => ok => 1999 => 525 => LSTMIXHPDS6GVVWRHQK3EJXCX
+18:33:51 => NutriPro Portable Blender Series 50 W Juicer Mixer Grinder => ok => 1999 => 525 => LSTMIXHPDS6GVVWRHQK3EJXCX
+18:33:51 => NutriPro Portable Blender Series 50 W Juicer Mixer Grinder => ok => 1999 => 525 => LSTMIXHPDS6GVVWRHQK3EJXCX
+18:33:51 => NutriPro PJC-12 200 W Juicer Mixer Grinder => ok => 1499 => 539 => LSTMIXHQHEWPAYGKN7S0HLKX1
+18:33:51 => NutriPro JUICER_01 50 W Juicer Mixer Grinder => ok => 1499 => 540 => LSTMIXHQHEVC3RZA4MHOVJM4A
+18:33:51 => NutriPro PORTABLE FAST JUICER 5508 50 W Juicer Mixer Grinder => ok => 1499 => 540 => LSTMIXHR42YHJHKWQ2P5MGIXG
+18:33:51 => NutriPro PORTABLE FAST JUICER 5509 50 W Juicer Mixer Grinder => ok => 1499 => 540 => LSTMIXHR42Z99H8YYWZWZS9WJ
+18:33:51 => NutriPro PORTABLE FAST JUICER 512 50 W Juicer Mixer Grinder => ok => 1499 => 540 => LSTMIXHR4GCXPNNYMBGAWRWII
+18:33:51 => NutriPro PORTABLE FAST JUICER 5505 50 W Juicer Mixer Grinder => ok => 1499 => 540 => LSTMIXHR42YXSTWXVX8JOCNHA

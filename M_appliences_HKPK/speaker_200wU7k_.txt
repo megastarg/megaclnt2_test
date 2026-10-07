@@ -8,3 +8,9 @@
 00:49:03 => GOVO GOSURROUND 950 500 W Bluetooth Soundbar => ok => 24999 => 6999 => LSTACCGXVVM9UAHGAGSGT1ZTY
 00:49:03 => Mivi Fort Sonic 400 Soundbar, 5.1 Channel, Multi-Input and EQ Modes, BT v5.3 400 W Bluetooth Soundbar => ok => 34999 => 6999 => LSTACCHE36MGRSEDCXFIMPURX
 00:49:03 => GOVO GOSURROUND 910 Dolby Digital 240 W Bluetooth Soundbar => ok => 22999 => 6999 => LSTACCGYQFFBUXHCC8TIWA9OW
+18:33:52 => MOTOROLA AmphisoundX Vibe 220 W Bluetooth Soundbar => ok => 17999 => 4799 => LSTACCHHJTD2DHHGNSUE2ABV2
+18:33:52 => GOVO GOSURROUND 945 PRO 5.1 with 5.25" Wired Subwoofer 260 W Bluetooth Soundbar => ok => 19999 => 4899 => LSTACCHM8ZJEYNZEZNG21XRIB
+18:33:52 => MOTOROLA AmphisoundX Vibe 330 W Bluetooth Soundbar => ok => 19999 => 5599 => LSTACCHHJTDWHHAEQPYAPNBSK
+18:33:52 => GOVO GOSURROUND 980 Dolby Digital wired Subwoofer 525 W Bluetooth Soundbar => ok => 29999 => 6499 => LSTACCHHYD8UWWM4NFGATJSZL
+18:33:52 => PHILIPS TAB4451/94 6.5 Inch Subwoofer HDMI ARC, USB & Optical Connectivity 250 W Bluetooth Soundbar => ok => 16999 => 6499 => LSTACCHMHFHHYMFGZPV3ILJAF
+18:33:52 => MOTOROLA AmphisoundX Vibe 500 W Bluetooth Soundbar => ok => 29999 => 6999 => LSTACCHKBMBHYAHWTUH2YGL4P

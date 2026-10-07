@@ -20,3 +20,4 @@
 17:32:38 => realme Pad 4 GB RAM 64 GB ROM 10.4 inch with 4G MediaTek Helio G80 Tablet (Gold) => Currently unavailable => 29999 => 16999 => LSTTABG6AGQDCHD2HANMO6OUY
 17:32:38 => realme Pad 4 GB RAM 64 GB ROM 10.4 inch with 4G MediaTek Helio G80 Tablet (Gold) => Currently unavailable => 29999 => 16999 => LSTTABG6AGQDCHD2HANMO6OUY
 17:32:38 => Lenovo TAB K11 8 GB RAM 8 GB ROM 11 inch with Wi-Fi+4G Gaming MediaTek Helio G88 Tablet (Luna Grey) => Currently unavailable => 37000 => 18341 => LSTTABHJBYFUS2EX9S423VJ2E
+18:37:06 => OPPO Pad SE with SUPERVOOC Charger 4 GB RAM 128 GB ROM 10.95 inch with Wi-Fi Only Gaming MediaTek Helio G100 Tablet (Starlight Silver) => Currently unavailable => 19499 => 16999 => LSTTABHDMU9SGMAVUJC5J3W1Z

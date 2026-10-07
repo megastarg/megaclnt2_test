@@ -1,0 +1,6 @@
+18:36:36 => Samsung Watch 5 40mmSuper AMOLED displayBluetooth calling & body composition tracking => Currently unavailable => 29999 => 999 => LSTSMWGH7W4ZMK7GTNQKIZKZS
+18:36:36 => Samsung Watch 5 40mmSuper AMOLED display LTE calling & body composition tracking => Currently unavailable => 35999 => 999 => LSTSMWGH7W4CZ8N7R92C3NZZH
+18:36:36 => Samsung Ufit 6 Bluetooth Calling Metallic Frame => Currently unavailable => 6999 => 2799 => LSTSMWHGWHCTYZBRYQZYA3EKT
+18:36:36 => Samsung Galaxy Fit3 | AMOLED Display & Aluminium Body | Upto 13Day Battery | 5ATM & IP68 => ok => 9999 => 3899 => LSTSMWGY6YRYKY3GXQURNE9WV
+18:36:36 => Samsung Galaxy Fit3 | AMOLED Display & Aluminium Body | Upto 13Day Battery | 5ATM & IP68 => ok => 9999 => 3899 => LSTSMWGY6YRNHBBK8FPDPQEGB
+18:36:36 => Samsung Galaxy Fit3 => Currently unavailable => 9999 => 3899 => LSTSMWGY6YRFDZ39HGVW2PTWH

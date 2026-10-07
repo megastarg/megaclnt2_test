@@ -85,3 +85,14 @@ To add new URLs to track:
 }
 ```
 4. Save the file and restart the engine. No Python code needs to be modified!
+
+---
+
+## 🖥️ Web UI Dashboard
+Instead of manually editing the `config.json` file or using CLI scripts, you can use the built-in premium Web Dashboard to easily add new tracking links!
+
+**To start the Web Dashboard:**
+```bash
+python3 web_ui.py
+```
+Then, open your web browser and navigate to: **http://localhost:5050**

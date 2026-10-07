@@ -8,3 +8,7 @@
 00:49:03 => SERPLEX mi X10 Robotic Floor Cleaner with Reusable Dust Bag => ok => 1049 => 660 => LSTVCLHE8KCXCGFSGMWGZB5XG
 00:49:03 => ELEPHANTBOAT X10 Robotic Floor Cleaner => ok => 1199 => 738 => LSTVCLHESNURZMVA83YRVA2OA
 00:49:03 => Verilux Ultra Robotic Floor Cleaner with Reusable Dust Bag => ok => 1199 => 748 => LSTVCLHEBY2VNEUBGFMGFJMBW
+18:33:51 => SERPLEX X10 Robotic Floor Cleaner => ok => 1199 => 626 => LSTVCLHBB2WJC5KPGNRRVM3UC
+18:33:51 => Verilux Replacement Kit Y1/Y1 Pro/Y1plus Robotic Floor Cleaner => ok => 1199 => 629 => LSTVCLHE5BYXQNQ9W3TW2IYAH
+18:33:51 => ELEPHANTBOAT Replacement Kit Y1/Y1 Pro/Y1plus Robotic Floor Cleaner => ok => 1199 => 689 => LSTVCLHE3AVJNEUBY8ZCA0GGC
+18:33:51 => ELEPHANTBOAT D10s Plus Robotic Floor Cleaner with Reusable Dust Bag => ok => 1199 => 710 => LSTVCLHF72ACAHGCZNVMRFSPX

@@ -1,2 +1,4 @@
 17:32:29 => Acer One 14 Pro (2026) Thin & Light Laptop AMD Ryzen 3 Quad Core 14th Gen -7320U - (8 GB/512 GB SSD/Windows 11 Home) Z1455M Business Laptop => ok => 62000 => 47990 => LSTCOMHP69QNT7M2H9B9XGF4F
 17:32:29 => Acer Acer Aspire Lite AL15-53 Intel Core 3 14th Gen 100U - (8 GB/512 GB SSD/Windows 11 Home) AL15-53 Notebook => ok => 49990 => 49990 => LSTCOMH6J6XQPYCFTEGKVVPG3
+18:37:02 => Acer Aspire Lite Metal (2026) Intel Core 3 14th Gen 100U - (8 GB/512 GB SSD/Windows 11 Home) AL15-53 Notebook => ok => 49990 => 46990 => LSTCOMH6J6XQPYCFTEGKVVPG3
+18:37:02 => HP 250R G10 (2025) (i3 14th Gen) Intel Core 3 14th Gen 100U - (8 GB/512 GB SSD/Windows 11 Home) 250R G10 Thin and Light Laptop => ok => 80000 => 49511 => LSTCOMHG6XMSCZ8WF5WCF9NX5

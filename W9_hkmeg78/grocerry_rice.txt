@@ -1,0 +1,11 @@
+18:36:55 => Farmers Grain Traditional Aruvatham kuruvai (500g) Brown Rice => IN_STOCK => 190 => 86 => LSTRICG23G8HCPMWW2KH2D3T8
+18:36:55 => Farmers Grain Traditional Garudan Samba Rice (1 kg) Boiled Rice (Medium Grain, Parboiled) => IN_STOCK => 390 => 136 => LSTRICFUG36MAESDRPZY26IWQ
+18:36:55 => HILTON Premium Regular Basmati Rice Combo 2kg Basmati Rice (Long Grain, Steam) => IN_STOCK => 600 => 235 => LSTRICGEHFZZSKFZQSHYEEOJB
+18:36:55 => Farmers Grain Traditional Andhra Ponni Ponni Rice (3 kg) Ponni Rice => IN_STOCK => 595 => 237 => LSTRICFWJBNJ79PHRZTNUVW3Y
+18:36:55 => Farmers Grain Traditional Kudavazhai Rice (5 kg) Brown Boiled Rice (Medium Grain, Parboiled) => IN_STOCK => 2020 => 648 => LSTRICFUZPSFZE7ZHYGNYKGTE
+18:36:55 => Befach Low GI Fortified White Rice for Sugar-Free & Weight Loss Diet Everyday Rice (Medium Grain, Polished) => IN_STOCK => 2999 => 717 => LSTRICHHAPGADCNZKESMPK2F1
+18:36:55 => Maharani Fitness Special (Pack of 5 * 1kg Each) Brown Basmati Rice (Medium Grain, Raw) => IN_STOCK => 2000 => 787 => LSTRICH26CRDZEAKFHDPTT6M6
+18:36:55 => Maharani Pack of 5 (1 kg Each, Total 5 kg) Royal Basmati Rice (Long Grain, Parboiled) => IN_STOCK => 2000 => 891 => LSTRICHKCX8JMHUU9YAJ2GKA1
+18:36:55 => Befach Diabetic Friendly / Low Glycemic (GI) Index (pack of 2) Sona Masoori Rice (Medium Grain, Polished) => IN_STOCK => 2700 => 1307 => LSTRICFYFEBWWQZKNYJKB8V7Q
+18:36:55 => Befach Fortified Low GI White Rice, Sugar Free & Weight Loss Everyday Rice (Medium Grain, Polished) => IN_STOCK => 2700 => 1326 => LSTRICHCZFEHHDYFCJS3D27VC
+18:36:55 => Befach Fortified White Rice Low GI for Sugar Free Weight Loss Everyday Rice (Medium Grain, Polished) => IN_STOCK => 4050 => 1922 => LSTRICH8895HPYCGYSNACGGSX

@@ -1,1 +1,1 @@
-worker: python scraper_engine.py
+worker: python3 pkclnt2.py & python3 pkclnt2_mob.py
