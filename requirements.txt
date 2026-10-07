@@ -9,3 +9,4 @@ curl_cffi
 httpx
 aiohttp
 boto3
+python-dotenv
